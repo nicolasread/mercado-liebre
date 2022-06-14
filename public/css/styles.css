@@ -1,0 +1,379 @@
+html{
+    font-family: 'Roboto', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ebebeb;
+}
+.logo-barra{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 50%;
+    padding: 5%;
+}
+.barra-icono{
+    width: 50%;
+    margin-top: 15px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+.searchbar{
+    position: relative;
+    width: 100%;
+    margin-top: 7px;
+    border-radius: 4px;
+    font-size: 8px;
+    border: 0mm;
+    padding: 10px;
+    overflow: auto;
+}
+.search-icon{
+    position: relative;
+    top: 13px;
+    right: 20px;
+}
+.cuotas{
+    text-align: center;
+}
+.header{
+    background-color: #EAC926;
+}
+.banner{
+    background-color: #ebebeb;
+}
+.titular{
+    font-size: 24px;
+    text-align: center;
+}
+.cdt{
+    font-size: 12px;
+    display: inline;
+}
+.shipping{
+    display: block;
+    color:#39b54a;
+    font-size: 16px;
+    border: solid 1px #39b54a;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 15px;
+    top: -15px;
+}
+.shipping:hover{
+    transform: rotateZ(270deg);
+}
+.precio{
+    font-size: 18px;
+}
+.descuento{
+    font-size: 16px;
+    color: #39b54a;
+}
+.descripcion{
+    margin-top: 15px;
+    font-size: 16px;
+}
+.c-burger-menu{
+    text-align: center;
+    margin-bottom: 15px;
+}
+.button-bm{
+    margin: 0 auto;
+    background-color: #1259c3;
+    color: white;
+    font-size: 20px;
+    border: #1259c3;
+    border-radius: 5px;
+    padding: 10px;
+}
+.articulo{
+    margin: 10px 0px;
+    border-top: 1px;
+    margin-bottom: 10px;
+}
+.articulo:hover{
+    box-shadow: 10px 5px 5px #666;
+}
+.img-articulo{
+    width: 100%;
+}
+.detalles{
+    border-top: solid 1px #ebebeb;
+    background-color: #FFFFFF;
+    padding: 15px;
+    position: relative;
+}
+main{
+    color: #666;
+    margin: auto;
+    width: 90%;
+}
+.footer{
+    text-align: center;
+    color: #666;
+}
+.iconosfooter{
+    color: #1259c3;
+    padding-top: 20px;
+    font-size: 40px;
+}
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+.precio-descuento{
+    display: flex;
+    gap: 10%;
+    align-items: center;
+}
+.register{
+    background-color:#ebebeb;
+}
+#name{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#user{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#mail{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#date{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#addres{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+.profile{
+    display: flex;
+    margin-top: 15px;
+    margin-bottom: 12px;
+}
+#buy{
+    width: 50%;
+}
+#sell{
+    width: 50%;
+}
+.interests input{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#password{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#c-password{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#file{
+    margin-top: 25px;
+}
+#login-user{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#login-password{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+}
+#login-submit{
+    width: 100%;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    border: 0mm;
+    padding: 7px;
+    border-radius: 4px;
+    background-color: #1259c3;
+    color: #FFFFFF;
+}
+#login-submit:hover{
+    background-color: #0022AA;
+}
+.login-footer{
+    background-color: #FFFFFF;
+    text-align: center;
+}
+@media (min-width: 0px){
+    .loginbar{
+        display: none;
+    }
+    .navbar{
+        display: none;
+    }
+    .precio{
+        width: 30%;
+    }
+    .descuento{
+        width: 70%;
+    }
+    .shipping{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .cdt{
+        text-align: center;
+        display: inline;
+    }
+}
+@media (min-width: 361px) {
+    .searchbar{
+        margin-top: 25px;
+        font-size: 15px;
+    }
+    .search-icon{
+        top: 35px;
+    }
+    .cdt{
+        display: inline-flex
+    }
+    .articulo{
+        width: 35%;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    } .header1{
+        display: flex;
+        justify-content: space-between;
+    }
+    .c-burger-menu{
+        display: none;
+    }
+    .precio{
+        width: 30%;
+        display: block;
+        font-size: 14px;
+    }
+    .descuento{
+        width: 70%;
+        display: block;
+        font-size: 12px;
+        text-align: center;
+    }
+    .descripcion{
+        display: none;
+        font-size: 12px;
+    }
+    .articulo:hover .descripcion{
+        display: block;
+    }
+    .productos{
+        width: 100%;
+    }
+    .login{
+        width: 60%;
+        text-align: center;
+    }
+    .register{
+        width: 60%;
+        text-align: center;
+    }
+    .nav-log{
+        font-size: 12px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .navbar{
+        width: 50%;
+        display: inline-flex;
+        gap: 5%;
+    }
+    .loginbar{
+        width: 50%;
+        display: flex;
+        gap:5%;
+        text-align: right;
+    }
+}
+@media (min-width: 768px) {
+    .articulo{
+        display: block;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        width: 40%;
+    }
+    .navbar{
+        display: block;
+    }
+    .c-burger-menu{
+        display: none;
+    }
+    .productos{
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 7%;
+    }
+    .nav-log{
+        font-size: 16px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+    }
+    .navbar{
+        width: 50%;
+        display: inline-flex;
+        gap: 5%;
+    }
+    .loginbar{
+        width: 50%;
+        display: flex;
+        gap:5%;
+        text-align: right;
+    }
+}
