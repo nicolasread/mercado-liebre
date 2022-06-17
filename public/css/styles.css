@@ -329,7 +329,14 @@ main {
     background-color: #FFFFFF;
     text-align: center;
 }
-
+.formulario{
+    width: 60%;
+    margin: 0 auto;
+}
+.formulario2{
+    width: 70%;
+    margin: 0 auto;
+}
 #icono {
     align-self: center;
     padding-left: 5px;
@@ -426,10 +433,16 @@ main {
     }
 
     .login {
-        width: 60%;
         text-align: center;
     }
-
+    .formulario{
+        width: 60%;
+        margin: 0 auto;
+    }
+    .formulario2{
+        width: 70%;
+        margin: 0 auto;
+    }
     .register {
         width: 60%;
         text-align: center;
@@ -512,5 +525,13 @@ main {
         display: flex;
         gap: 5%;
         text-align: right;
+    }
+    .formulario{
+        width: 40%;
+        margin: 0 auto;
+    }
+    .formulario2{
+        width: 50%;
+        margin: 0 auto;
     }
 }
